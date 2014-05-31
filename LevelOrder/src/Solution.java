@@ -6,14 +6,6 @@ import java.util.Queue;
 /**
  * Created by xuyuanp on 5/31/14.
  */
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {

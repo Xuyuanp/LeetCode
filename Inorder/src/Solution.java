@@ -6,16 +6,6 @@ import java.util.Stack;
  * Created by xuyuanp on 5/31/14.
  */
 
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
-}
-
 public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null)
